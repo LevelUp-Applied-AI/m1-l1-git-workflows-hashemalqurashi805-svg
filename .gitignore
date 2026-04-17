@@ -1,4 +1,20 @@
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+# Secrets and credentials
+.env
+key.*
+pem.*
+
+# Data files (never commit raw data to Git)
+*.csv
+*.parquet
+*.xlsx
+/data/raw
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Python environments and cache
+venv/
 .venv/
+__pycache__/
+.ipynb_checkpoints/
